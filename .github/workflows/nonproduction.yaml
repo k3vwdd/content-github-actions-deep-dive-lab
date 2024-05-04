@@ -1,3 +1,11 @@
+name: Deply feature to branches to nonprod bucket
+
+on:
+  push:
+    branches:
+      - feature*
+
+
 jobs:
 
   build:
